@@ -37,9 +37,4 @@ public class LionTest {
         exceptionRule.expectMessage("Используйте допустимые значения пола животного - самец или самка");
         Lion lion = new Lion("Небинараная львиная личность");
     }
-//    Вариант теста исключения
-//    @Test(expected=Exception.class)
-//    public void outOfBounds() throws Exception {
-//        Lion lion = new Lion("Небинараная львиная личность");
-//    }
 }
